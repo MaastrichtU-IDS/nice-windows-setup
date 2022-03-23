@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo apt install zsh
+sudo apt update
+sudo apt install -y zsh
 cp .zshrc ~/.zshrc 
 
 
@@ -15,7 +16,12 @@ git config --global core.autocrlf input
 git config --global core.eol lf
 
 
-echo "ℹ️ Type exit ZSH and finish the install"
+# Edit the terminal color in settings.json?
+# export WINDOWS_USERNAME=$(cmd.exe /c "echo %USERNAME%")
+# /mnt/c/Users/$WINDOWS_USERNAME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json
+
+
+echo "ℹ️ Type 'exit' to leave ZSH and finish the install"
 
 # Install oh my zsh with custom theme
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

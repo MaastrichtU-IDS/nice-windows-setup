@@ -2,7 +2,6 @@
 
 export PATH="$PATH:$HOME/.local/bin"
 
-cp .zshrc ~/.zshrc 
 
 ## Script to install personal config: oh my ZSH
 export INSTALL_PATH=$(pwd)
