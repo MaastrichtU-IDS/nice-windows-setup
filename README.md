@@ -35,3 +35,16 @@ You can add a symbolic link to the Windows workspace in the Ubuntu home folder t
 ln -s /mnt/c/Users/YOUR_USER_ID $HOME/windows
 ```
 
+You can change the colors for the Terminal in **Settings** > **Profiles** > **Ubuntu** > **Appearance**. We recommend to use the  **Solarized Dark** color scheme.
+
+
+## Setup Git
+
+Define your name and email:
+
+
+Optionally you can generate and use a SSH key instead of password for authenticating to git:
+
+```bash
+ssh-keygen -t ecdsa -b 521 -f ~/.ssh/github_rsa -C "username@hostname"
+```

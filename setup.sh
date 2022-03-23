@@ -11,13 +11,9 @@ export INSTALL_PATH=$(pwd)
 # git config --global user.email "vincent.emonet@gmail.com"
 # git config --global user.name "Vincent Emonet"
 
+git config --global core.autocrlf input
+git config --global core.eol lf
 
-# Install Solarized color for the terminal
-# cd ~/
-# git clone https://github.com/aruhier/gnome-terminal-colors-solarized.git
-# cd gnome-terminal-colors-solarized
-# ./install.sh -s dark --install-dircolors
-# cd $INSTALL_PATH
 
 echo "ℹ️ Type exit ZSH and finish the install"
 
